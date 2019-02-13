@@ -46,7 +46,7 @@ import { getPost} from '../../actions/postActions';
   }
 }
 
-Post.propTYpes = {
+Post.propTypes = {
     getPost: PropTypes.func.isRequired,
     post: PropTypes.object.isRequired
 }
